@@ -29,32 +29,32 @@
             <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
         </rowConstraints>
          <children>
-            <Label text="이메일">
+            <Label text="이메일" textFill="WHITE">
                <font>
                   <Font name="System Bold" size="15.0" />
                </font></Label>
-            <Label text="암호" GridPane.rowIndex="1">
+            <Label text="암호" textFill="WHITE" GridPane.rowIndex="1">
                <font>
                   <Font name="System Bold" size="15.0" />
                </font></Label>
-            <Label text="이름" GridPane.rowIndex="2">
+            <Label text="이름" textFill="WHITE" GridPane.rowIndex="2">
                <font>
                   <Font name="System Bold" size="15.0" />
                </font></Label>
             <TextField fx:id="tfEmail" promptText="필수항목" GridPane.columnIndex="1" />            
             <PasswordField fx:id="tfPw" GridPane.columnIndex="1" GridPane.rowIndex="1" />
             <TextField fx:id="tfName" GridPane.columnIndex="1" GridPane.rowIndex="2" />
-            <Label text="생년월일" GridPane.rowIndex="3">
+            <Label text="생년월일" textFill="WHITE" GridPane.rowIndex="3">
                <font>
                   <Font name="System Bold" size="15.0" />
                </font></Label>
             <TextField fx:id="tfBirth" promptText="(형식:19900101)" GridPane.columnIndex="1" GridPane.rowIndex="3" />
-            <Label text="주소" GridPane.rowIndex="4">
+            <Label text="주소" textFill="WHITE" GridPane.rowIndex="4">
                <font>
                   <Font name="System Bold" size="15.0" />
                </font></Label>
             <TextField fx:id="tfAddress" promptText="권역별" GridPane.columnIndex="1" GridPane.rowIndex="4" />
-            <Label text="연락처" GridPane.rowIndex="5">
+            <Label text="연락처" textFill="WHITE" GridPane.rowIndex="5">
                <font>
                   <Font name="System Bold" size="15.0" />
                </font></Label>
@@ -80,7 +80,7 @@
       <TextField fx:id="tfFindCondition" layoutX="14.0" layoutY="301.0" prefHeight="29.0" prefWidth="153.0" promptText="검색조건" />
       <Button fx:id="btnFindByName" layoutX="94.0" layoutY="337.0" mnemonicParsing="false" prefHeight="29.0" prefWidth="65.0" text="이름" />
       <Button fx:id="btnFindByAddress" layoutX="14.0" layoutY="337.0" mnemonicParsing="false" prefHeight="29.0" prefWidth="65.0" text="주소" />
-      <Label layoutX="252.0" layoutY="525.0" prefHeight="21.0" prefWidth="360.0" text="Copyright. @2019 유응구 (2004121000)" textFill="#422bb5">
+      <Label layoutX="252.0" layoutY="525.0" prefHeight="21.0" prefWidth="360.0" text="Copyright. @2019 박의판 (201612065)" textFill="#422bb5">
          <font>
             <Font name="System Italic" size="18.0" />
          </font>
